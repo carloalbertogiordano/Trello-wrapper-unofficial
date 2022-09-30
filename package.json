@@ -1,0 +1,14 @@
+{
+  "name": "trello-wrapper-unofficial",
+  "version": "1.0.0",
+  "description": "An unofficial wrapper for Trello",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "carloalbertogiordano",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "electron": "^21.0.1"
+  }
+}
