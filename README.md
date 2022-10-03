@@ -7,4 +7,4 @@ This is a wrapper for Trello that uses electron
 2. cd Trello-wrapper-unofficial
 3. npm start
 ```
-Releases will come so it is easyer
+For installation look here: https://github.com/carloalbertogiordano/TrelloWrapperInstaller
