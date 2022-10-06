@@ -1,7 +1,7 @@
 # Trello-wrapper-unofficial
 This is a wrapper for Trello that uses electron
 
-#Instructions to run
+## Instructions to run
 ```
 1. git clone https://github.com/carloalbertogiordano/Trello-wrapper-unofficial.git
 2. cd Trello-wrapper-unofficial
@@ -17,7 +17,7 @@ https://github.com/carloalbertogiordano/Trello-wrapper-unofficial/releases
 ### Or use this installation script (Old and not raccomended)
 For installation look here: https://github.com/carloalbertogiordano/TrelloWrapperInstaller
 
-## Or build it
+### Or build it
 1. Clone the repo with ```git clone https://github.com/carloalbertogiordano/Trello-wrapper-unofficial.git```
 2. Enter the directory ```cd Trello-wrapper-unofficial```
 3. Run ```electron-builder build```
