@@ -33,7 +33,7 @@ This is the copr spec file for building automatically Trello wrapper
 electron-builder build
 
 %install
-%dnf install dist/*.rpm
+%sudo dnf install dist/*.rpm
 #-- FILES ---------------------------------------------------------------------#
 %files
 %doc README.md
