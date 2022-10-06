@@ -1,14 +1,52 @@
 {
   "name": "trello-wrapper-unofficial",
   "version": "1.0.0",
-  "description": "An unofficial wrapper for Trello",
-  "main": "index.js",
-  "scripts": {
-    "start": "electron ."
+  "description": "An unofficial wrapper for Trello build in electron",
+  "synopsis":"Trello for linux",
+  "category":"Network",
+  "repository": "https://github.com/carloalbertogiordano/Trello-wrapper-unofficial",
+  "homepage": "https://github.com/carloalbertogiordano/Trello-wrapper-unofficial",
+  "author": {
+    "name": "carloalbertogiordano",
+    "email": "carloalbertogiordano@duck.com"
   },
-  "author": "carloalbertogiordano",
+  "maintainer":"https://github.com/carloalbertogiordano",
   "license": "GPL-3.0-or-later",
-  "dependencies": {
-    "electron": "^21.0.1"
+  "keywords": [
+    "Electron",
+    "Trello"
+  ],
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "distW": "electron-builder --x64 -l",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "com.trello-unofficial.app",
+    "productName": "Trello Unofficial",
+    "linux": {
+      "target": [ { "target": "rpm"}, { "target": "deb"}, { "target": "AppImage"}],
+      "icon":"build/icons/512x512.icns"
+    },
+    "rpm": {
+    },
+    "deb": {
+    },
+    "artifactName": "/TrelloUnofficial_1.0.0_Setup.${ext}",
+    "forceCodeSigning": false,
+    "directories": {
+      "buildResources": "./icon"
   }
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "electron": "^21.0.1",
+    "electron-builder": "^23.3.3"
+  },
+  "extraMetadata": {
+    "main": "main.js"
+  },
+  "extends": null
 }
