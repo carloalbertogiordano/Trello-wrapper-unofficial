@@ -43,5 +43,7 @@ install dist/*.rpm %{_buildrootdir}/rpm_result/out.rpm
 #%{_bindir}/hellocopr
 /rpm_result/out.rpm
 
+sleep(30)
+
 #-- CHANGELOG -----------------------------------------------------------------#
 %changelog
