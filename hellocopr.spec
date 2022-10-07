@@ -39,7 +39,7 @@ electron-builder build
 %doc README.md
 %license LICENSE
 %{_bindir}/hellocopr
-%dist/*.rpm
+%dist/TrelloUnofficial_%{version}_Setup.rpm
 
 #-- CHANGELOG -----------------------------------------------------------------#
 %changelog
