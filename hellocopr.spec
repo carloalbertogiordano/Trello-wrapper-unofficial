@@ -41,7 +41,7 @@ cp dist/*.rpm %{_buildrootdir}/rpm_result/out.rpm
 %doc README.md
 %license LICENSE
 #%{_bindir}/hellocopr
-%{_buildrootdir}/rpm_result/out.rpm
+/rpm_result/out.rpm
 
 #-- CHANGELOG -----------------------------------------------------------------#
 %changelog
