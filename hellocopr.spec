@@ -40,7 +40,7 @@ cp dist/*.rpm /tmp/tito/out.rpm
 %doc README.md
 %license LICENSE
 %{_bindir}/hellocopr
-/tmp/tito/out.rpm
+/../../../out.rpm
 
 #-- CHANGELOG -----------------------------------------------------------------#
 %changelog
