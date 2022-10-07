@@ -29,12 +29,6 @@
       "target": [
         {
           "target": "rpm"
-        },
-        {
-          "target": "deb"
-        },
-        {
-          "target": "AppImage"
         }
       ],
       "icon": "build/icons/512x512.icns"
