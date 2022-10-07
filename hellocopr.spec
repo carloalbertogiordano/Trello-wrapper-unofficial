@@ -26,13 +26,13 @@ BuildRequires: npm
 This is the copr spec file for building automatically Trello wrapper
 
 #-- PREP, BUILD & INSTALL -----------------------------------------------------#
-#Prep
+%prep
 %autosetup
 
-#Build
+%build
 electron-builder build
 
-#Install
+%install
 mkdir -p %{buildroot}/rpm_result
 install dist/*.rpm %{buildroot}/rpm_result/out.rpm
 
