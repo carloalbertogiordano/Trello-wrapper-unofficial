@@ -26,7 +26,7 @@ BuildRequires: npm
 This is the copr spec file for building automatically Trello wrapper
 
 #-- PREP, BUILD & INSTALL -----------------------------------------------------#
-%prep
+#Prep
 %autosetup
 
 #Build
