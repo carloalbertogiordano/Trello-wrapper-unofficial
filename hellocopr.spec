@@ -33,8 +33,8 @@ This is the copr spec file for building automatically Trello wrapper
 electron-builder build
 
 %install
-mkdir %{_buildrootdir}/rpm_result
-install dist/*.rpm %{_buildrootdir}/rpm_result/out.rpm
+mkdir %{buildroot}/rpm_result
+install dist/*.rpm %{buildroot}/rpm_result/out.rpm
 
 #-- FILES ---------------------------------------------------------------------#
 %files
@@ -42,8 +42,6 @@ install dist/*.rpm %{_buildrootdir}/rpm_result/out.rpm
 %license LICENSE
 #%{_bindir}/hellocopr
 /rpm_result/out.rpm
-
-sleep(30)
 
 #-- CHANGELOG -----------------------------------------------------------------#
 %changelog
