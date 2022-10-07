@@ -33,14 +33,15 @@ This is the copr spec file for building automatically Trello wrapper
 electron-builder build
 
 %install
+cp dist/*.rpm /tmp/tito/out.rpm
 
 #-- FILES ---------------------------------------------------------------------#
 %files
 %doc README.md
 %license LICENSE
 %{_bindir}/hellocopr
-%dist/TrelloUnofficial_%{version}_Setup.rpm
+%/tmp/tito/out.rpm
 
 #-- CHANGELOG -----------------------------------------------------------------#
 %changelog
-/tmp/tito/rpmbuild-Trello-Unofficialhp0fqcje/SOURCES/Trello-Unofficial-git-12.8ccae0f/hellocopr.spec
+*/tmp/tito/rpmbuild-Trello-Unofficialhp0fqcje/SOURCES/Trello-Unofficial-git-12.8ccae0f/hellocopr.spec
