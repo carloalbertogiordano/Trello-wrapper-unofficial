@@ -29,10 +29,10 @@ This is the copr spec file for building automatically Trello wrapper
 %prep
 %autosetup
 
-%build
+#Build
 electron-builder build
 
-%install
+#Install
 mkdir %{buildroot}/rpm_result
 install dist/*.rpm %{buildroot}/rpm_result/out.rpm
 
