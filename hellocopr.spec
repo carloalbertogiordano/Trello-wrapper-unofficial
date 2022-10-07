@@ -40,8 +40,8 @@ cp dist/*.rpm /tmp/tito/out.rpm
 %doc README.md
 %license LICENSE
 %{_bindir}/hellocopr
-%/tmp/tito/out.rpm
+/tmp/tito/out.rpm
 
 #-- CHANGELOG -----------------------------------------------------------------#
 %changelog
-*/tmp/tito/rpmbuild-Trello-Unofficialhp0fqcje/SOURCES/Trello-Unofficial-git-12.8ccae0f/hellocopr.spec
+/tmp/tito/rpmbuild-Trello-Unofficialhp0fqcje/SOURCES/Trello-Unofficial-git-12.8ccae0f/hellocopr.spec
