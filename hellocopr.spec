@@ -37,10 +37,8 @@ mkdir %{buildroot}/rpm_result
 install dist/*.rpm %{buildroot}/rpm_result/out.rpm
 
 #-- FILES ---------------------------------------------------------------------#
-%files
 %doc README.md
 %license LICENSE
-#%{_bindir}/hellocopr
 /rpm_result/out.rpm
 
 #-- CHANGELOG -----------------------------------------------------------------#
