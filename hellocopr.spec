@@ -34,8 +34,7 @@ electron-builder build
 
 %install
 mkdir %{_buildrootdir}/rpm_result
-cp dist/*.rpm %{_buildrootdir}/rpm_result/out.rpm
-install %{_buildrootdir}/rpm_result/out.rpm
+install dist/*.rpm %{_buildrootdir}/rpm_result/out.rpm
 
 #-- FILES ---------------------------------------------------------------------#
 %files
