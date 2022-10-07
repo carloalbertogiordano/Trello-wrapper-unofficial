@@ -36,6 +36,11 @@ electron-builder build
 mkdir %{_buildrootdir}/rpm_result
 cp dist/*.rpm %{_buildrootdir}/rpm_result/out.rpm
 
+echo "Before _buildrootdir"
+echo $(ls ../%{_buildrootdir})
+echo "in buildrootdir"
+echo $(ls %{_buildrootdir})
+
 #-- FILES ---------------------------------------------------------------------#
 %files
 %doc README.md
